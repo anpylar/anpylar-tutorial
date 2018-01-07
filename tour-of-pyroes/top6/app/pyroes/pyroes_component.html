@@ -1,0 +1,25 @@
+<h2>My Pyroes</h2>
+<div>
+  <label>Pyro name:
+    <input *_fmtvalue="pyro_name_" />  <!-- bidirectional binding to pyro_name_ -->
+  </label>
+  <!-- (click) passes input value to add() and then clears the input -->
+  <button (click)="pyro_add()">  <!-- pyro_add uses the pyro_name_ binding -->
+    Add
+  </button>
+</div>
+
+<ul class="pyroes">
+</ul>
+
+<!--
+Copyright 2017 Google Inc. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at http://angular.io/license
+-->
+
+<!--
+Copyright 2018 The AnPyLar Team
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at http://anpylar.com/mit-license
+-->
