@@ -5,8 +5,6 @@ from anpylar import Component, html
 
 
 class DashboardComponent(Component):
-    def loading(self):
-        print('self._parent is:', self._parent)
 
     def render(self, node):
         with node.select('div') as d:
